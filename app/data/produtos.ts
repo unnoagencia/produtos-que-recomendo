@@ -98,4 +98,46 @@ export const categorias: Categoria[] = [
       },
     ],
   },
+  {
+    id: "tecnologia",
+    nome: "Tecnologia",
+    emoji: "💻",
+    produtos: [
+      {
+        id: "rayban-meta-gen2",
+        nome: "Ray-Ban Meta Gen 2",
+        descricao: "Óculos inteligentes com câmera, áudio e IA integrada",
+        imagem: "https://placehold.co/400x300/f1f5f9/64748b?text=Ray-Ban+Meta",
+        link: "#",
+      },
+      {
+        id: "oakley-vanguard-meta",
+        nome: "Oakley Vanguard Meta",
+        descricao: "Óculos esportivos inteligentes com tecnologia Meta",
+        imagem: "https://placehold.co/400x300/f1f5f9/64748b?text=Oakley+Meta",
+        link: "#",
+      },
+      {
+        id: "macbook-pro-m3-pro",
+        nome: "MacBook Pro M3 Pro",
+        descricao: "Laptop profissional da Apple com chip M3 Pro",
+        imagem: "https://placehold.co/400x300/f1f5f9/64748b?text=MacBook+Pro",
+        link: "#",
+      },
+      {
+        id: "ipad-pro-m4",
+        nome: "iPad Pro M4",
+        descricao: "Tablet profissional ultrafino com chip M4 da Apple",
+        imagem: "https://placehold.co/400x300/f1f5f9/64748b?text=iPad+Pro",
+        link: "#",
+      },
+      {
+        id: "mac-mini-m4",
+        nome: "Mac Mini M4",
+        descricao: "Desktop compacto e poderoso com chip M4 da Apple",
+        imagem: "https://placehold.co/400x300/f1f5f9/64748b?text=Mac+Mini",
+        link: "#",
+      },
+    ],
+  },
 ];

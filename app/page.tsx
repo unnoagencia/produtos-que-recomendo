@@ -26,9 +26,7 @@ export default function Home() {
           <CategorySection key={categoria.id} categoria={categoria} />
         ))}
       </main>
-      <footer className="text-center py-8 text-sm text-gray-400 border-t border-gray-100 mt-10">
-        Feito com ❤️ · Links de afiliado
-      </footer>
+      <footer className="py-8 border-t border-gray-100 mt-10" />
     </div>
   );
 }
